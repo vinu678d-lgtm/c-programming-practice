@@ -1,26 +1,55 @@
 # C Programming Practice
 
-Welcome to my C programming learning repository.
+Welcome to my C Programming Practice Repository!
 
-## About
-This repository contains my C programming practice while learning the fundamentals of programming.
+## About Me
+I am an Electronics and Communication Engineering student interested in Embedded Systems, Embedded C, and IoT development.
 
-## Topics Covered
+This repository contains my C programming practice programs, exercises, and problem-solving activities.
+
+## Topics Practiced
 - Variables and Data Types
 - Input and Output
 - Operators
-- If-Else Statements
+- Conditional Statements (if-else, nested if)
 - Switch Case
-- Loops
+- Loops (for, while, do-while)
 - Functions
 - Arrays
+- Basic Problem Solving
+
+## Topics to Explore
 - Strings
 - Pointers
-- Structures
+- Structures and Unions
 - File Handling
+- Dynamic Memory Allocation
+- Embedded C Concepts
 
-## Goal
-To build a strong foundation in C programming for Embedded Systems and IoT development.
+## Tools Used
+- Visual Studio Code
+- GCC Compiler
+- Windows
+- GitHub
+
+## How to Run the Programs
+
+Compile a C program using GCC:
+
+```bash
+gcc filename.c -o program
+```
+
+Run it in Windows PowerShell:
+
+```powershell
+.\program.exe
+```
+
+## My Goal
+To strengthen my C programming and problem-solving skills and apply them to Embedded Systems, Microcontrollers, and IoT projects.
 
 ## Author
-Vinay R
+**Vinay R**
+
+GitHub: https://github.com/vinu678d-lgtm
