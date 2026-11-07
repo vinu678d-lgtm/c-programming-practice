@@ -1,26 +1,21 @@
 #include <stdio.h>
-#include <string.h>
 
-void birthday(char name[20] , int age)
+int largest(float a , float b , float c)
 {
-printf("\nHappy birthday to you %s", name);
-printf("\nHappy birthday to you %s", name);
-printf("\nHappy birthday to you %s", name);
-printf("\nHappy birthday to you %s", name);
-printf("\nYou are %d years old ",age);
+    
+   if (a > b && a > c ){
+    printf("%.2f is largest" , a);
+   }
+   else if (b > a && b > c ){
+    printf("%.2f is largest" , b);
+   }
+else {
+    printf("%.2f is largest" , c);
+   }
+
 }
-int main()
-{
-  char name[20];
-  int age ;
-  printf("Whats your Name : ");
-  fgets(name,sizeof(name),stdin);
-  name[strlen(name) -1 ] = '\0';
-  printf("Enter your age : ");
-  scanf("%d" , &age);
+int main (){
 
-  birthday(name,age);
-
+    largest(5.11,4,5);
     return 0;
 }
-
